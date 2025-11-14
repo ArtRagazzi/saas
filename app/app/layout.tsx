@@ -1,4 +1,12 @@
 import "./globals.css";
+import {Red_Hat_Display} from "next/font/google";
+
+
+const redHatDisplay = Red_Hat_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+
+})
 
 
 export default function RootLayout({
@@ -8,11 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body
-        className={`antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${redHatDisplay.className}} antialiased bg-neutral-900 text-neutral-100`}>{children}</body>
     </html>
   );
 }
