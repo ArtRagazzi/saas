@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import UserCard from "@/app/components/communs/user-card";
-
+import { TotalVisits } from "../communs/total-visits";
 export default function Hero() {
   return (
     <div className="flex items-center border h-screen">
@@ -18,14 +18,14 @@ export default function Hero() {
           <span className="text-white text-xl">projectinbio.com</span>
 
           <Input type="text" placeholder="Seu Link" />
-          <Button variant={"ghost"}>Criar agora</Button>
+          <Button variant="default" className="h-12 font-bold">Criar agora</Button>
         </div>
       </div>
       <div className="w-full flex items-center justify-center bg-[radial-gradient(circle_at_50%_50%,#482DBB_0px,transparent_70%)]">
         <div className="relative">
           <UserCard></UserCard>
           <div className="absolute -bottom-[7%] -right-[45%]">
-            {/* TotalVisits */}
+            <TotalVisits/>
           </div>
           <div className="absolute top-[20%] -left-[45%] -z-10">
             {/* ProjectCard */}
