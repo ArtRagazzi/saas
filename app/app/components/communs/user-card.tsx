@@ -33,7 +33,7 @@ export default function UserCard() {
         </div>
         <div className="flex flex-col gap-3 w-full h-[172px]">
           <div className="w-full flex flex-col items-center gap-3">
-            <Button variant={"secondary"} className="w-full mt-2">Template Saas - Compre agora</Button>
+            <Button className="w-full mt-2 h-12 font-bold bg-purple-950 hover:bg-purple-900 cursor-pointer text-md hover:text-lg">Template Saas - Compre agora</Button>
             <button className="p-3 rounded-xl bg-[#1E1E1E] hover:bg-[#2E2E2E]">
               <Plus />
             </button>
