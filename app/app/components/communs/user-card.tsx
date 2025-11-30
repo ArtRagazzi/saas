@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Linkedin, Github, Plus } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 
 export default function UserCard() {
   const icons = [Facebook, Instagram, Linkedin, Github, Plus];

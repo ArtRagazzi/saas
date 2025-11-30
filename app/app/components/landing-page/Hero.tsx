@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/app/components/ui/button";
+import { Input } from "@/app/components/ui/input";
 import UserCard from "@/app/components/communs/user-card";
 import { TotalVisits } from "../communs/total-visits";
-import { ProjectCard } from "../communs/product-card";
+import { ProjectCard } from "../communs/project-card";
 export default function Hero() {
   return (
-    <div className="flex items-center h-screen">
+    <div className="flex items-center h-screen gap-32">
       <div className="w-full flex flex-col gap-2">
         <h1 className="text-5xl font-bold text-white leading-16">
           Seus projetos e redes sociais em um único link

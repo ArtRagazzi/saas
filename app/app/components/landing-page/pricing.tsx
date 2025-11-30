@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { TRIAL_DAYS } from "@/lib/config";
+import { Button } from "@/app/components/ui/button";
+import { TRIAL_DAYS } from "@/app/lib/config";
 
 export default function Pricing() {
 
